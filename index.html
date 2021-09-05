@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap">
+</head>
+<body>
+    <p><h1>Registration Form</h1></p>
+<form action="Tugas2.php" method="GET" style="width: 100%;">
+<table style="width: 100%; margin-bottom: 15px;">
+    <tr>
+        <th colspan="2">
+            <br>
+            <h1>Registration Form</h1>
+        </th>
+    </tr>
+    <tr>
+    <td colspan="2">
+    <div class="form">
+        <input type="text" name="name" autocomplete="off" required size="100" />
+        <label for="name" class="label-name">
+            <span class="content-name">Name</span>
+        </label>
+    </div>
+    </td>
+    </tr>
+
+    <tr>
+    <td colspan="2">
+    <div class="form">
+        <input type="email" name="email" autocomplete="off" required />
+        <label for="email" class="label-name">
+            <span class="content-name">Email</span>
+        </label>
+    </div>
+    </td>
+    </tr>
+
+    <tr>
+    <td colspan="2">
+    <div class="form">
+        <input type="password" name="password" autocomplete="off" required />
+        <label for="password" class="label-name">
+            <span class="content-name">Password</span>
+        </label>
+    </div>
+    </td>
+    </tr>
+
+    <tr>
+    <td colspan="2">
+    <div class="form">
+        <input type="password" name="password" autocomplete="off" required />
+        <label for="password" class="label-name">
+            <span class="content-name">Confirm Password</span>
+        </label>
+    </div>
+    </br>
+    </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+        <div class="formD">
+            <input type="date" name="birthday" autocomplete="off" required />
+            <label for="date" class="label-nameD">
+                <span class="content-nameD">Birthday</span>
+            </label>
+        </div>
+        </td>
+        </tr>
+
+    <tr>
+    <td style="width: 8%;">
+        <br>
+        <label for="gender" class="label-name">
+            <span class="content-nameG">Gender</span>
+        <div class="radio">
+    </td>
+        
+    <td style="text-align: left;">
+        <br>
+        </label>
+        <input type="radio" id="Male" name="gender" value="Male" class="gender">
+        <label for="Male" class="radio_label">Male</label>
+
+        <input type="radio" id="Female" name="gender" value="Female" class="gender">
+        <label for="Male" class="radio_label">Female</label>
+    </div>
+    </td>
+    </tr>
+
+    
+    <tr>
+        <div class="formG">
+        <td>
+            <br>
+            <label for="kom" class="label-name">
+            <span class="content-nameG">Kom</span>
+        </td>
+        <td>
+            <br>
+            <select required>
+            <option>Kom A</option>
+            <option>Kom B</option>
+            <option>Kom C</option>
+            </select>
+            </td>
+           </tr>
+        </div>
+        </td>
+        </tr>
+
+    <tr>
+    <td>
+    <div class="checkbox">
+        <br>
+        <label for="checkbox" class="label-nameO">
+            <span class="content-nameBox">Hobby</span>
+        </label>
+    </td>
+    <td>
+        <br>
+        <input type="checkbox" name="hobby" value="photography" class="label-nameBox"/>Photography
+        <input type="checkbox" name="hobby" value="travelling" class="label-nameBox"/>Travelling
+        <input type="checkbox" name="hobby" value="design" class="label-nameBox"/>Design
+    </div>
+    </td>
+    </tr>
+    <tr>
+        <td>
+        <br>
+        <div class="textarea">
+        <label for="textarea" class="label-nameX">
+            <span class="content-nameX">Address</span>
+        </label>
+        </td>
+        <td>
+        <br>
+            <textarea name="Address:" autocomplete="off" required style="width: 45%;"></textarea>
+        </div>
+        </td>
+   </tr>
+
+    <tr>
+        <td colspan="2">
+
+        <div class="button">
+            <button input type="submit" name="submit" value="submit" class="btn btn1">Submit</button>
+            <button input type="reset" name="reset" value="reset" class="btn btn2">Reset</button>
+            
+          </div>
+    </td>
+     </tr>
+
+</table>
+</form>
+</body>
+</html>
